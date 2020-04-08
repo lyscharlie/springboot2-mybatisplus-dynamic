@@ -17,11 +17,11 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.lyscharlie.MyApplication;
+import com.lyscharlie.SpringbootMybatisplusDynamicApplication;
 import com.lyscharlie.biz.entity.AreaDO;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = MyApplication.class)
+@SpringBootTest(classes = SpringbootMybatisplusDynamicApplication.class)
 public class AreaMapperTest {
 
 	@Autowired

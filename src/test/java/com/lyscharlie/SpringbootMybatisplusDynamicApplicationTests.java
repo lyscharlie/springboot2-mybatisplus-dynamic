@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @MapperScan("com.lyscharlie.biz.mapper")
-public class MyApplicationTests {
+public class SpringbootMybatisplusDynamicApplicationTests {
 
 	@Test
 	public void contextLoads() {
